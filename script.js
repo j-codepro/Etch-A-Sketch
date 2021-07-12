@@ -40,7 +40,7 @@ function blackColor() {
     buttonsContainer.appendChild(btnBlack).classList.add('btn');
 }
 
-function rgbColor() {
+function rainbowColor() {
     const boxs = container.querySelectorAll('.box');
     btnRainbow.textContent = 'RAINBOW';
     btnRainbow.addEventListener('click', () => {
@@ -67,13 +67,13 @@ function reSize() {
         if(user === null || user < 1) {
             reSet();
             createDivs(16,16);
-            rgbColor();
+            rainbowColor();
             greyColor();
             blackColor();
         } else if (user > 100) {
             reSet();
             createDivs(100,100);
-            rgbColor();
+            rainbowColor();
             greyColor();
             blackColor();
         } else {
@@ -89,7 +89,7 @@ function reSize() {
 reSize();
 
 createDivs(16, 16);
-rgbColor();
+rainbowColor();
 greyColor();
 blackColor();
 
