@@ -1,0 +1,53 @@
+body {
+    background: #C10900;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.section h1 {
+    font-family: 'Chewy', cursive, Arial, Helvetica, sans-serif;
+    color: #FFD700;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.container {
+    display: grid;
+    width: 450px;
+    height: 450px;
+    border: 10px white solid;
+    border-radius: 8px;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.btn {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: #FFD700 2px solid;
+    background: none;
+    font-family: 'Chewy', cursive, Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    background: #FFD700;
+    color: red;
+}
+
+.btn:focus {
+    background: #FFD700;
+    color: red;
+}
