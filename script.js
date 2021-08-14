@@ -78,8 +78,8 @@ function reSize() {
             blackColor();
         } else {
             reSet();
-            createDivs(user, user);
-            rgbColor();
+            createDivs(user,user);
+            rainbowColor();
             greyColor();
             blackColor();
         }
